@@ -17,9 +17,41 @@ header .header-container img{
 
 main{
     width: 100%;
-    padding: 10px;
+    padding: 0 10px;
+}
+main .main-container .container-search{
+    width: 100%;
+    padding: -8px 8px;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+}
+main .main-container .container-search form{
+    display: flex;
+    width: inherit;
+    height: inherit;
+    border: 1px solid black;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+}
+main .main-container .container-search form button{
+    width: 55px;
+    height: inherit;
+    margin: 0;
+}
+main .main-container .container-search form div select{
+    width: 45px;
+    height: inherit;
+}
+main .main-container .container-search form input{
+    width: auto;
+    height: inherit;
+    flex-grow: 1;
 }
 main .main-container .container-languajes{
+    margin-top: 24px;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 16px;
